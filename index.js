@@ -6,7 +6,8 @@ var api = {};
 var requestOptions = {
 	json: true,
 	headers: {
-		'if-modified-since': 0
+		'if-modified-since': 0,
+		'User-Agent': 'curl/8.4.0'
 	}
 };
 
